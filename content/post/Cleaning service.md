@@ -3,7 +3,7 @@ title: Cleaning service
 date: 2021-10-17
 authorbox: false
 sidebar: false
-menu: main
+thumbnail: "img/Xenang_rutcong_2.png"
 ---
 
 ## Introduction

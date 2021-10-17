@@ -3,10 +3,7 @@ title: Forklift service order way
 date: 2021-10-17
 linktitle: Company forklift project
 thumbnail: "img/placeholder.png"
-menu:
-  main:
-    name: Forklift service
-    weight: 10
+
 ---
 
 ## Introduction

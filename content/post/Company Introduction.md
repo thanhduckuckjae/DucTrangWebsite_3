@@ -1,13 +1,14 @@
 ---
-title: Company Introduction
+title: Company introduction
 description: Example test article that contains basic HTML elements for text formatting on the Web.
 date: 2021-10-17
 categories:
-  - "Forklift_sevice_cate"
+  - "Forklift_service_cate"
 tags:
-  - "Cleaning_sevice"
-  - "Forklift_sevice"
+  - "Cleaning_service"
+  - "Forklift_service"
   - "Transportation_service"
+
 ---
 
 ## Introduction

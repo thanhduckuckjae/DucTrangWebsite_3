@@ -4,13 +4,13 @@ date: 2021-10-17
 linktitle: Company forklift project
 thumbnail: "img/Xenang_rutcong_2.png"
 tags:
-  - "Forklift_sevice"
-  - "Cleaning_sevice"
-  - "Transportation_sevice"
+  - "Forklift_service"
+  - "Cleaning_service"
+  - "Transportation_service"
   - "Construction_material"
 categories:
-  - "Forklift_sevice_cate"
-  - "Cleaning_sevice_cate"
+  - "Forklift_service_cate"
+  - "Cleaning_service_cate"
 menu:
   main:
     name: About us

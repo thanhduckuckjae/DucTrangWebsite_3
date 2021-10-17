@@ -11,7 +11,7 @@ tags:
 categories:
   - "Forklift_service_cate"
   - "Cleaning_service_cate"
-menu: main
+
 ---
 
 ## Introduction
