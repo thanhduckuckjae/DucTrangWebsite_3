@@ -1,5 +1,5 @@
 ---
-title: About us
+title: Company introduction
 date: 2021-10-17
 linktitle: Company forklift project
 thumbnail: "img/Xenang_rutcong_2.png"
@@ -13,7 +13,7 @@ categories:
   - "Cleaning_service_cate"
 menu:
   main:
-    name: About us
+    name: Company introduction
     weight: 5
 ---
 
