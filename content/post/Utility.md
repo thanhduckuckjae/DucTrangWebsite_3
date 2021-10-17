@@ -2,10 +2,11 @@
 title: "Utility"
 date: 2021-10-17
 thumbnail: "img/FD230.jpg"
+
 tags:
   - "Forklift_service"
   - "Cleaning_service"
-  - "Transportation_service"
+  - "Utility"
  
 categories:
   - "Forklift_service_cate"
