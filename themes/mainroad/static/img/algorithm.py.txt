@@ -1,0 +1,17 @@
+s = 'a b c a a c a c b c a b a c a b a b a b c a b c a b c a c a b c a c a b'
+
+arr = s.split(' ')
+
+def map_func(c):
+	if(c == 'a'):
+		return 0
+	elif(c == 'b'):
+		return 1
+	else:
+		return 3
+
+marr = list(map(map_func,arr))
+
+for i in range(0,len(marr) - 3):
+	if(marr[i] + marr[i+1]+marr[i+2] == 4):
+		print(marr[i], marr[i+1], marr[i+2])

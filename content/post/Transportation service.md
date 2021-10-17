@@ -1,7 +1,7 @@
 ---
 title: "Transportation service"
 date: 2020-04-06
-thumbnail: "img/AntaiSolar.png"
+thumbnail: "img/FD230.jpg" 
 tags:
   - "Forklift_service"
   - "Cleaning_service"
