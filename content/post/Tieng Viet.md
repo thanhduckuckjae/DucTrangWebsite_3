@@ -1,6 +1,6 @@
 ---
 title: "Tiếng Việt"
-date: 2021-10-17
+date: 2022-10-29
 thumbnail: "img/Xenang_thungda.png"
 tags:
   - "Forklift_service"
@@ -34,9 +34,9 @@ Công ty trách nhiệm hữu hạn Đức Trang chuyên:
 
 ## Địa chỉ liên hệ
 
-Địa chỉ: Tổ 6, Ấp Song Vĩnh, Xã Tân Phước, Huyện Tân Thành, Tỉnh Bà Bịa Vũng Tàu, Việt Nam
+Địa chỉ: Tổ 6, Khu Phố Song Vĩnh, Phường Tân Phước, Thị Xã Phú Mỹ, Tỉnh Bà Bịa Vũng Tàu, Việt Nam
 
-Điện Thoại: (+84)978 306 618
+Điện Thoại: (+84)973 306 618
 
 Email: thanhdu1964@gmail.com
 
