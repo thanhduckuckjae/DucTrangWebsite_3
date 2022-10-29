@@ -1,6 +1,6 @@
 ---
 title: "Transportation service"
-date: 2021-10-17
+date: 2022-10-29
 thumbnail: "img/AntaiSolar.png" 
 tags:
   - "Forklift_service"
@@ -35,8 +35,8 @@ Duc Trang Company Limited specializes in:
 
 ## Address
 
-6 Group, Song Vinh Hamlet, Tan Phuoc Commune, Tan Thanh District, Ba Ria-Vung Tau Province, Vietnam
+6 Group, Song Vinh Quarter, Tan Phuoc Ward, Phu My Town, Ba Ria-Vung Tau Province, Vietnam
 
-Phone: (+84) 978 306 618
+Phone: (+84) 973 306 618
 
 Email: thanhdu1964@gmail.com
