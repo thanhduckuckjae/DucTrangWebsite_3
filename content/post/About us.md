@@ -42,6 +42,6 @@ Duc Trang Company Limited specializes in:
 
 6 Group, Song Vinh Quarter, Tan Phuoc Ward, Ho Chi Minh City, Vietnam
 
-Phone: (+84) 973 306 618 / (+84) 862 517 889
+Phone: (+84) 973 306 618
 
 Email: thanhdu1964@gmail.com
