@@ -1,6 +1,6 @@
 ---
 title: Company introduction
-date: 2022-10-29
+date: 2026-06-02
 linktitle: Company forklift project
 thumbnail: "img/Xenang_rutcong_2.png"
 tags:
@@ -38,10 +38,10 @@ Duc Trang Company Limited specializes in:
 
 8. Purchase and sale of construction materials.
 
-## Address: 
+## Address
 
-6 Group, Song Vinh Quarter, Tan Phuoc Ward, Ho Chi Minh City, Vietnam
+Adress: 6 Group, Song Vinh Quarter, Tan Phuoc Ward, Ho Chi Minh City, Vietnam
 
-Phone: (+84) 973 306 618
+Phone: (+84) 973 306 618 / (+84) 862 517 889
 
 Email: thanhdu1964@gmail.com
