@@ -36,7 +36,7 @@ Công ty trách nhiệm hữu hạn Đức Trang chuyên:
 
 Địa chỉ: Tổ 6, Khu Phố Song Vĩnh, Phường Tân Phước, Thị Xã Phú Mỹ, Tỉnh Bà Bịa Vũng Tàu, Việt Nam
 
-Điện Thoại: (+84)973 306 618
+Điện Thoại: (+84) 973 306 618/(+84) 862 517 889
 
 Email: thanhdu1964@gmail.com
 
