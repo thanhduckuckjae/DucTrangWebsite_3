@@ -28,7 +28,7 @@ Duc Trang Company Limited specializes in:
 
 ## Address
 
-Adress: 6 Group, Song Vinh Quarter, Tan Phuoc Ward, Ho Chi Minh City, Vietnam
+Address: 6 Group, Song Vinh Quarter, Tan Phuoc Ward, Ho Chi Minh City, Vietnam
 
 Phone: (+84) 973 306 618 / (+84) 862 517 889
 
