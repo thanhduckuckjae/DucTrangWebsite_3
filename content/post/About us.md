@@ -14,6 +14,7 @@ categories:
 menu:
   main:
     name: Company introduction
+    identifier: company-intro
     weight: 5
 ---
 

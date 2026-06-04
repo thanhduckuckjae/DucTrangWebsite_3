@@ -20,6 +20,32 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   authorbox = true
   post_navigation = true
   post_meta = ["date", "categories"] # Order of post meta information
+  customCSS = ["css/dropdown.css"]
+  customJS = ["js/dropdown.js"]
+
+[[menu.main]]
+  name = "Đối tác"
+  parent = "company-intro"
+  url = "/company/doi-tac/"
+  weight = 1
+
+[[menu.main]]
+  name = "Logo"
+  parent = "company-intro"
+  url = "/company/logo/"
+  weight = 2
+
+[[menu.main]]
+  name = "Xe nâng"
+  parent = "company-intro"
+  url = "/company/xe-nang/"
+  weight = 3
+
+[[menu.main]]
+  name = "Other"
+  parent = "company-intro"
+  url = "/company/other/"
+  weight = 4
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page

@@ -1,0 +1,113 @@
+/* Image gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 16px 0 24px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: opacity .2s ease;
+}
+
+.gallery img:hover {
+    opacity: .85;
+}
+
+.gallery--logo img {
+    height: auto;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 620px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    }
+    .gallery img {
+        height: 120px;
+    }
+}
+
+/* Dropdown menu */
+.menu__item--has-children {
+    position: relative;
+}
+
+.menu__arrow {
+    margin-left: 4px;
+    font-size: 12px;
+    transition: transform .2s ease;
+}
+
+.menu__dropdown {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #2a2a2a;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    min-width: 180px;
+}
+
+.menu__dropdown-item {
+    border-top: 1px solid rgba(255,255,255,.1);
+}
+
+.menu__dropdown-link {
+    display: block;
+    padding: 10px 18px;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background .2s ease;
+}
+
+.menu__dropdown-link:hover {
+    background: #e22d30;
+    color: #fff;
+}
+
+/* Desktop: hover dropdown */
+@media screen and (min-width: 767px) {
+    .menu__dropdown {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 200;
+    }
+
+    .menu__item--has-children:hover .menu__dropdown {
+        display: block;
+    }
+
+    .menu__item--has-children:hover .menu__arrow {
+        transform: rotate(180deg);
+    }
+}
+
+/* Mobile: click to toggle */
+@media screen and (max-width: 766px) {
+    .menu__dropdown {
+        position: static;
+        box-shadow: none;
+        border-top: 1px solid rgba(255,255,255,.1);
+    }
+
+    .menu__item--has-children.menu__item--open .menu__dropdown {
+        display: block;
+    }
+
+    .menu__item--has-children.menu__item--open .menu__arrow {
+        transform: rotate(180deg);
+    }
+
+    .menu__link--parent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

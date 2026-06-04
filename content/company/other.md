@@ -1,0 +1,30 @@
+﻿---
+title: Other
+date: 2026-06-04
+---
+
+<div class="gallery-page">
+
+## Hình ảnh khác
+
+<div class="gallery">  <a href="/img/company/Others/20231129_130754.jpg" target="_blank"><img src="/img/company/Others/20231129_130754.jpg" alt="Other" loading="lazy"></a>
+  <a href="/img/company/Others/20231129_130910.jpg" target="_blank"><img src="/img/company/Others/20231129_130910.jpg" alt="Other" loading="lazy"></a>
+  <a href="/img/company/Others/20240529_092402.jpg" target="_blank"><img src="/img/company/Others/20240529_092402.jpg" alt="Other" loading="lazy"></a>
+  <a href="/img/company/Others/20240927_085739.jpg" target="_blank"><img src="/img/company/Others/20240927_085739.jpg" alt="Other" loading="lazy"></a>
+  <a href="/img/company/Others/20250521_100855.jpg" target="_blank"><img src="/img/company/Others/20250521_100855.jpg" alt="Other" loading="lazy"></a>
+  <a href="/img/company/Others/20260415_124527.jpg" target="_blank"><img src="/img/company/Others/20260415_124527.jpg" alt="Other" loading="lazy"></a>
+</div>
+
+## Thiết bị
+
+<div class="gallery">
+  <a href="/img/company/Thiết bị/20251010_142953.jpg" target="_blank"><img src="/img/company/Thiết bị/20251010_142953.jpg" alt="Thiết bị" loading="lazy"></a>
+  <a href="/img/company/Thiết bị/20251010_143437.jpg" target="_blank"><img src="/img/company/Thiết bị/20251010_143437.jpg" alt="Thiết bị" loading="lazy"></a>
+  <a href="/img/company/Thiết bị/20251213_144821.jpg" target="_blank"><img src="/img/company/Thiết bị/20251213_144821.jpg" alt="Thiết bị" loading="lazy"></a>
+  <a href="/img/company/Thiết bị/20251229_135921.jpg" target="_blank"><img src="/img/company/Thiết bị/20251229_135921.jpg" alt="Thiết bị" loading="lazy"></a>
+  <a href="/img/company/Thiết bị/20251229_141406.jpg" target="_blank"><img src="/img/company/Thiết bị/20251229_141406.jpg" alt="Thiết bị" loading="lazy"></a>
+  <a href="/img/company/Thiết bị/IMG_20251007_144204.jpg" target="_blank"><img src="/img/company/Thiết bị/IMG_20251007_144204.jpg" alt="Thiết bị" loading="lazy"></a>
+</div>
+
+</div>
+
