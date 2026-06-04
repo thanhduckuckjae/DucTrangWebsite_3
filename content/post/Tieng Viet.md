@@ -9,7 +9,9 @@ tags:
 categories:
   - "Forklift_service_cate"
   - "Cleaning_service_cate"
-menu: main
+menu:
+  main:
+    name: Company introduction
 ---
 
 ## Giới thiệu công ty
