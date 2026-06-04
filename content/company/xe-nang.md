@@ -5,13 +5,6 @@ date: 2026-06-04
 
 <div class="gallery-page">
 
-<div class="gallery">
-  <a href="/img/company/Xe%20N%C3%A2ng/20230816_074440.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/20230816_074440.jpg" alt="Xe Nâng" loading="lazy"></a>
-  <a href="/img/company/Xe%20N%C3%A2ng/20241205_145633.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/20241205_145633.jpg" alt="Xe Nâng" loading="lazy"></a>
-  <a href="/img/company/Xe%20N%C3%A2ng/20241220_170013.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/20241220_170013.jpg" alt="Xe Nâng" loading="lazy"></a>
-  <a href="/img/company/Xe%20N%C3%A2ng/20250406_104803.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/20250406_104803.jpg" alt="Xe Nâng" loading="lazy"></a>
-  <a href="/img/company/Xe%20N%C3%A2ng/IMG_1758683248126_1758683276164.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/IMG_1758683248126_1758683276164.jpg" alt="Xe Nâng" loading="lazy"></a>
-</div>
 
 ## 01 Mitsubishi 25 tấn vàng
 
@@ -163,6 +156,16 @@ date: 2026-06-04
 
 <div class="gallery">
   <a href="/img/company/Xe%20N%C3%A2ng/23%20Samsung%202.5%20t%E1%BA%A5n%20%C4%91%E1%BB%8F/20240413_162951.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/23%20Samsung%202.5%20t%E1%BA%A5n%20%C4%91%E1%BB%8F/20240413_162951.jpg" alt="23 Samsung 2.5 tấn đỏ" loading="lazy"></a>
+</div>
+
+## 24 Others
+
+<div class="gallery">
+  <a href="/img/company/Xe%20N%C3%A2ng/24%20Others/20230816_074440.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/24%20Others/20230816_074440.jpg" alt="24 Others" loading="lazy"></a>
+  <a href="/img/company/Xe%20N%C3%A2ng/24%20Others/20241205_145633.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/24%20Others/20241205_145633.jpg" alt="24 Others" loading="lazy"></a>
+  <a href="/img/company/Xe%20N%C3%A2ng/24%20Others/20241220_170013.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/24%20Others/20241220_170013.jpg" alt="24 Others" loading="lazy"></a>
+  <a href="/img/company/Xe%20N%C3%A2ng/24%20Others/20250406_104803.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/24%20Others/20250406_104803.jpg" alt="24 Others" loading="lazy"></a>
+  <a href="/img/company/Xe%20N%C3%A2ng/24%20Others/IMG_1758683248126_1758683276164.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/24%20Others/IMG_1758683248126_1758683276164.jpg" alt="24 Others" loading="lazy"></a>
 </div>
 
 </div>
