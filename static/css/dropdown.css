@@ -1,3 +1,43 @@
+/* Header logo layout */
+.logo {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 15px 25px !important;
+}
+
+.logo__img-link {
+    flex-shrink: 0;
+}
+
+.logo__img {
+    height: 80px;
+    width: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.logo__link {
+    text-align: right !important;
+    margin-left: auto;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .logo {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+    .logo__img {
+        height: 60px;
+    }
+    .logo__link {
+        text-align: center !important;
+        padding-left: 0;
+    }
+}
+
 /* Image gallery */
 .gallery {
     display: grid;
