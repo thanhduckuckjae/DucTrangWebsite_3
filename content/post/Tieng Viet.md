@@ -1,17 +1,21 @@
 ---
-title: "Tiếng Việt"
+title: Company introduction
 date: 2026-06-02
-thumbnail: "img/Xenang_thungda.png"
+linktitle: Company forklift project
+thumbnail: "img/Xenang_rutcong_2.png"
 tags:
   - "Forklift_service"
   - "Cleaning_service"
- 
+  - "Transportation_service"
+  - "Construction_material"
 categories:
   - "Forklift_service_cate"
   - "Cleaning_service_cate"
 menu:
   main:
-    name: Company introduction
+    name: Giới thiệu công ty
+    identifier: company-intro
+    weight: 5
 ---
 
 
@@ -42,6 +46,3 @@ Address: 6 Group, Song Vinh Quarter, Tan Phuoc Ward, Ho Chi Minh City, Vietnam
 Phone: (+84) 973 306 618 / (+84) 862 517 889
 
 Email: thanhdu1964@gmail.com
-
-
-
