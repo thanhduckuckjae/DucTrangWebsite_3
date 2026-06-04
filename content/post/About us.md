@@ -12,6 +12,8 @@ categories:
 menu:
   main:
     name: Giới thiệu công ty
+    identifier: gioi-thieu-cong-ty
+    weight: 5
 ---
 
 

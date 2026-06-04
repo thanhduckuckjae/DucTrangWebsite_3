@@ -25,26 +25,50 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [[menu.main]]
   name = "Đối tác"
-  parent = "company-intro"
+  parent = "gioi-thieu-cong-ty"
   url = "/company/doi-tac/"
   weight = 1
 
 [[menu.main]]
   name = "Logo"
-  parent = "company-intro"
+  parent = "gioi-thieu-cong-ty"
   url = "/company/logo/"
   weight = 2
 
 [[menu.main]]
   name = "Xe nâng"
-  parent = "company-intro"
+  parent = "gioi-thieu-cong-ty"
   url = "/company/xe-nang/"
   weight = 3
 
 [[menu.main]]
   name = "Other"
-  parent = "company-intro"
+  parent = "gioi-thieu-cong-ty"
   url = "/company/other/"
+  weight = 4
+
+[[menu.main]]
+  name = "Partner"
+  parent = "company-intro-en"
+  url = "/company-en/partner/"
+  weight = 1
+
+[[menu.main]]
+  name = "Logo"
+  parent = "company-intro-en"
+  url = "/company-en/logo/"
+  weight = 2
+
+[[menu.main]]
+  name = "Forklift"
+  parent = "company-intro-en"
+  url = "/company-en/forklift/"
+  weight = 3
+
+[[menu.main]]
+  name = "Other"
+  parent = "company-intro-en"
+  url = "/company-en/other/"
   weight = 4
 
 [Params.sidebar]
