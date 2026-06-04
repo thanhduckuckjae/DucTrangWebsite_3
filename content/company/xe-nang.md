@@ -41,6 +41,12 @@ date: 2026-06-04
   <a href="/img/company/Xe Nâng/04 Komatsu 6 tấn vàng/20251030_161822.jpg" target="_blank"><img src="/img/company/Xe Nâng/04 Komatsu 6 tấn vàng/20251030_161822.jpg" alt="04 Komatsu 6 tấn vàng" loading="lazy"></a>
 </div>
 
+## 05 Daewoo 5 tấn vàng
+
+<div class="gallery">
+  <a href="/img/company/Xe Nâng/05 Daewoo 5 tấn vàng/20250203_105320.jpg" target="_blank"><img src="/img/company/Xe Nâng/05 Daewoo 5 tấn vàng/20250203_105320.jpg" alt="05 Daewoo 5 tấn vàng" loading="lazy"></a>
+</div>
+
 ## 06 Komatsu 5 tấn vàng
 
 <div class="gallery">
@@ -94,6 +100,18 @@ date: 2026-06-04
   <a href="/img/company/Xe Nâng/13 Toyota 3 tấn cam/20251009_110334.jpg" target="_blank"><img src="/img/company/Xe Nâng/13 Toyota 3 tấn cam/20251009_110334.jpg" alt="13 Toyota 3 tấn cam" loading="lazy"></a>
 </div>
 
+## 14 TCM 3 tấn vàng
+
+<div class="gallery">
+  <a href="/img/company/Xe Nâng/14 TCM 3 tấn vàng/20260120_160541.jpg" target="_blank"><img src="/img/company/Xe Nâng/14 TCM 3 tấn vàng/20260120_160541.jpg" alt="14 TCM 3 tấn vàng" loading="lazy"></a>
+</div>
+
+## 15 Mitsubishi 2.5 tấn xanh
+
+<div class="gallery">
+  <a href="/img/company/Xe Nâng/15 Mitsubishi 2.5 tấn xanh/IMG_1712059780402_1712647371980.jpg" target="_blank"><img src="/img/company/Xe Nâng/15 Mitsubishi 2.5 tấn xanh/IMG_1712059780402_1712647371980.jpg" alt="15 Mitsubishi 2.5 tấn xanh" loading="lazy"></a>
+</div>
+
 ## 16 Toyota 2.5 tấn đỏ
 
 <div class="gallery">
@@ -125,6 +143,13 @@ date: 2026-06-04
 <div class="gallery">
   <a href="/img/company/Xe Nâng/20 Komatsu 2.5 tấn vàng xanh 16/20250316_072643.jpg" target="_blank"><img src="/img/company/Xe Nâng/20 Komatsu 2.5 tấn vàng xanh 16/20250316_072643.jpg" alt="20 Komatsu 2.5 tấn vàng xanh 16" loading="lazy"></a>
   <a href="/img/company/Xe Nâng/20 Komatsu 2.5 tấn vàng xanh 16/20250316_072759.jpg" target="_blank"><img src="/img/company/Xe Nâng/20 Komatsu 2.5 tấn vàng xanh 16/20250316_072759.jpg" alt="20 Komatsu 2.5 tấn vàng xanh 16" loading="lazy"></a>
+</div>
+
+## 21 Komatsu 2.5 tấn vàng xanh 14
+
+<div class="gallery">
+  <a href="/img/company/Xe Nâng/21 Komatsu 2.5 tấn vàng xanh 14/20251008_162141.jpg" target="_blank"><img src="/img/company/Xe Nâng/21 Komatsu 2.5 tấn vàng xanh 14/20251008_162141.jpg" alt="21 Komatsu 2.5 tấn vàng xanh 14" loading="lazy"></a>
+  <a href="/img/company/Xe Nâng/21 Komatsu 2.5 tấn vàng xanh 14/20251008_162154.jpg" target="_blank"><img src="/img/company/Xe Nâng/21 Komatsu 2.5 tấn vàng xanh 14/20251008_162154.jpg" alt="21 Komatsu 2.5 tấn vàng xanh 14" loading="lazy"></a>
 </div>
 
 ## 22 Shinko 1.8 tấn xanh
