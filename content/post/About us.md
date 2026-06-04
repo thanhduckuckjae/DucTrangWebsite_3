@@ -13,7 +13,7 @@ categories:
   - "Cleaning_service_cate"
 menu:
   main:
-    name: Tiếng Việt
+    name: Giới thiệu công ty
     identifier: company-intro
     weight: 5
 ---
