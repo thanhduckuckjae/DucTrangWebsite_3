@@ -1,5 +1,5 @@
 ---
-title: Company introduction
+title: "GIỚI THIỆU CÔNG TY"
 date: 2026-06-02
 linktitle: Company forklift project
 thumbnail: "img/Xenang_rutcong_2.png"
@@ -19,30 +19,30 @@ menu:
 ---
 
 
-## Introduction
+## Giới thiệu công ty
 
-Duc Trang Company Limited specializes in:
+Công ty trách nhiệm hữu hạn Đức Trang chuyên:
 
-1. Clearing up construction ground trash (leveling);
+1. Dọn dẹp tạp lập mặt bằng xây dựng (san lấp mặt bằng); 
 
-2. Construction of civil, industrial, transport works (bridges, roads, culverts ...), electrical works up to 35kV, irrigation works, water supply and drainage works;
+2. Xây dựng công trình dân dụng, công trình công nghiệp, công trình giao thông (cầu, đường, cống...), công trình điện đến 35kV, công trình thủy lợi, công trình đường ống cấp thoát nước;
 
-3. House and workshop cleaning service;
+3. Dịch vụ vệ sinh nhà, xưởng;
 
-4. Real estate brokerage, real estate services;
+4. Môi giới bất động sản, dịch vụ nhà đất;
 
-5. Port and port logistics services;
+5. Dịch vụ hậu cần cảng và bến cảng;
 
-6. Transport along fixed routes;
+6. Vận tải theo tuyến cố định;
 
-7. Passenger transportation under contracts, tourist transportation, freight transport, coastal transportation (ships, canoes, motorboats);
+7. Vận tải khách theo hợp đồng, vận tải du lịch, vận tải hàng, vận tải ven biển (tàu thủy, cano, xuồng máy);
 
-8. Purchase and sale of construction materials.
+8. Mua bán vật liệu xây dựng.
 
-## Address
+## Địa chỉ liên hệ
 
-Address: 6 Group, Song Vinh Quarter, Tan Phuoc Ward, Ho Chi Minh City, Vietnam
+Địa chỉ: Tổ 6, Khu phố Song Vĩnh, Phường Tân Phước, Thành phố Hồ Chí Minh, Việt Nam
 
-Phone: (+84) 973 306 618 / (+84) 862 517 889
+Điện Thoại: (+84) 973 306 618 / (+84) 862 517 889
 
 Email: thanhdu1964@gmail.com

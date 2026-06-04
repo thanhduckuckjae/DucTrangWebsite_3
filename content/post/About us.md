@@ -1,5 +1,5 @@
 ---
-title: "Tiếng Việt"
+title: "COMPANY INTRODUCTION"
 date: 2026-06-02
 thumbnail: "img/Xenang_thungda.png"
 tags:
