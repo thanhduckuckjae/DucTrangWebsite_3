@@ -21,7 +21,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   post_navigation = true
   post_meta = ["date", "categories"] # Order of post meta information
   customCSS = ["css/dropdown.css"]
-  customJS = ["js/dropdown.js"]
+  customJS = ["js/dropdown.js", "js/slideshow.js"]
 
 [[menu.main]]
   name = "Đối tác"
