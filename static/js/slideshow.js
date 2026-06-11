@@ -1,7 +1,7 @@
 ﻿'use strict';
 
 (function() {
-  var companyImages = [
+    var companyImages = [
   '/img/company/Xe%20N%C3%A2ng/20230816_074440.jpg',
   '/img/company/Xe%20N%C3%A2ng/20241205_145633.jpg',
   '/img/company/Xe%20N%C3%A2ng/20241220_170013.jpg',
@@ -37,12 +37,19 @@
   '/img/company/Others/20240927_085739.jpg',
   '/img/company/Others/20250521_100855.jpg',
   '/img/company/Others/20260415_124527.jpg',
+  '/img/company/Others/z7902098291937_7aceb8356d6d865a6cf94f8b5a7af11d.jpg',
+  '/img/company/Others/z7902098327787_920f91851f2a3853a2b240a0d78db701.jpg',
   '/img/company/Thi%E1%BA%BFt%20b%E1%BB%8B/20251010_142953.jpg',
   '/img/company/Thi%E1%BA%BFt%20b%E1%BB%8B/20251010_143437.jpg',
   '/img/company/Thi%E1%BA%BFt%20b%E1%BB%8B/20251213_144821.jpg',
   '/img/company/Thi%E1%BA%BFt%20b%E1%BB%8B/20251229_135921.jpg',
   '/img/company/Thi%E1%BA%BFt%20b%E1%BB%8B/20251229_141406.jpg',
   '/img/company/Thi%E1%BA%BFt%20b%E1%BB%8B/IMG_20251007_144204.jpg',
+  '/img/company/Thi%E1%BA%BFt%20b%E1%BB%8B/z7902098423426_e6481f36bc8dd66cbd13762ec149b554.jpg',
+  '/img/company/Thi%E1%BA%BFt%20b%E1%BB%8B/z7902098573887_c1a05dee79327c5b739963279215a3c7.jpg',
+  '/img/company/Thi%E1%BA%BFt%20b%E1%BB%8B/z7902098586464_223583fd330080f7ed2549963e6663fe.jpg',
+  '/img/company/Thi%E1%BA%BFt%20b%E1%BB%8B/z7902098619729_8423bac86b26ce92526f83df4f582423.jpg',
+  '/img/company/Thi%E1%BA%BFt%20b%E1%BB%8B/z7902098619731_3bb23a1ac224670495a064bc7974463b.jpg',
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/AK%20Vina%20G%C3%B2%20D%E1%BA%A7u/20241105_141442.jpg',
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/AP%20MC/20260320_133927.jpg',
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Ashton/20230508_175217.jpg',
@@ -54,6 +61,7 @@
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/C%E1%BA%A3ng%20Bason/20241101_101552.jpg',
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/C%E1%BA%A3ng%20CMIT/20251223_105909.jpg',
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Coretronic/20230525_114825.jpg',
+  '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/CSVC/z7902098319819_a9d25e96b3ac75d74a36ed7849102226.jpg',
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/D%E1%BB%87t%20AOJIA/IMG_1697106024888_1697159540095.jpg',
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/%C4%90i%E1%BB%87n%20L%E1%BB%B1c%20Ph%C3%BA%20M%E1%BB%B9/20260425_162843.jpg',
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Elite%20Ch%C3%A2u%20%C4%90%E1%BB%A9c/20260407_113803.jpg',
@@ -61,6 +69,8 @@
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Hoa%20Sen%20Ph%C3%BA%20M%E1%BB%B9/20230329_163916.jpg',
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Hong%20Ming/IMG_1747101838882_1747102583142.jpg',
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Hyosung%20Vina%20Core%20Materials/20241120_135642.jpg',
+  '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/IREX/z7902098260925_777d4778f700b3acf72a1c3678f21a0b.jpg',
+  '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/JFE%20Ph%C3%BA%20M%E1%BB%B9%203/z7902098299237_4ca797d07fde517639f5f2c92d98f67b.jpg',
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Josin%20Cables/20250403_103047.jpg',
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Kimcooks/20221205_125825.jpg',
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Kingspan%20Ph%C3%BA%20M%E1%BB%B9/TimePhoto_20251201_134156.jpg',
@@ -185,3 +195,4 @@
     });
   });
 }());
+

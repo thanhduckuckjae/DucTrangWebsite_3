@@ -39,6 +39,7 @@ date: 2026-06-04
 
 <div class="gallery">
   <a href="/img/company/Xe%20N%C3%A2ng/05%20Daewoo%205%20t%E1%BA%A5n%20v%C3%A0ng/20250203_105320.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/05%20Daewoo%205%20t%E1%BA%A5n%20v%C3%A0ng/20250203_105320.jpg" alt="05 Daewoo 5 tấn vàng" loading="lazy"></a>
+  <a href="/img/company/Xe%20N%C3%A2ng/05%20Daewoo%205%20t%E1%BA%A5n%20v%C3%A0ng/z7902098580797_ad4ef6ff5c2a0b971c701b5d3baab23c.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/05%20Daewoo%205%20t%E1%BA%A5n%20v%C3%A0ng/z7902098580797_ad4ef6ff5c2a0b971c701b5d3baab23c.jpg" alt="05 Daewoo 5 tấn vàng" loading="lazy"></a>
 </div>
 
 ## 06 Komatsu 5 tấn vàng

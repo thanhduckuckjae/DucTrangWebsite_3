@@ -16,6 +16,7 @@ date: 2026-06-04
 
 <div class="gallery">
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/AP%20MC/20260320_133927.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/AP%20MC/20260320_133927.jpg" alt="AP MC" loading="lazy"></a>
+  <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/AP%20MC/z7902098452589_b73ddf663b649b3a181aa3ce87984a7e.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/AP%20MC/z7902098452589_b73ddf663b649b3a181aa3ce87984a7e.jpg" alt="AP MC" loading="lazy"></a>
 </div>
 
 ## Ashton
@@ -86,6 +87,13 @@ date: 2026-06-04
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Coretronic/20230804_170206.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Coretronic/20230804_170206.jpg" alt="Coretronic" loading="lazy"></a>
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Coretronic/20230804_173731.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Coretronic/20230804_173731.jpg" alt="Coretronic" loading="lazy"></a>
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Coretronic/20231212_165235.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Coretronic/20231212_165235.jpg" alt="Coretronic" loading="lazy"></a>
+  <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Coretronic/z7902098303767_60444b158278fe1edb60b07571131572.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Coretronic/z7902098303767_60444b158278fe1edb60b07571131572.jpg" alt="Coretronic" loading="lazy"></a>
+</div>
+
+## CSVC
+
+<div class="gallery">
+  <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/CSVC/z7902098319819_a9d25e96b3ac75d74a36ed7849102226.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/CSVC/z7902098319819_a9d25e96b3ac75d74a36ed7849102226.jpg" alt="CSVC" loading="lazy"></a>
 </div>
 
 ## Dệt AOJIA
@@ -132,6 +140,8 @@ date: 2026-06-04
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Hoa%20Sen%20Ph%C3%BA%20M%E1%BB%B9/20230404_091114.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Hoa%20Sen%20Ph%C3%BA%20M%E1%BB%B9/20230404_091114.jpg" alt="Hoa Sen Phú Mỹ" loading="lazy"></a>
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Hoa%20Sen%20Ph%C3%BA%20M%E1%BB%B9/20230404_143936.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Hoa%20Sen%20Ph%C3%BA%20M%E1%BB%B9/20230404_143936.jpg" alt="Hoa Sen Phú Mỹ" loading="lazy"></a>
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Hoa%20Sen%20Ph%C3%BA%20M%E1%BB%B9/20241219_142450.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Hoa%20Sen%20Ph%C3%BA%20M%E1%BB%B9/20241219_142450.jpg" alt="Hoa Sen Phú Mỹ" loading="lazy"></a>
+  <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Hoa%20Sen%20Ph%C3%BA%20M%E1%BB%B9/z7902098272711_5f1a37081b005e4101b8a30338643842.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Hoa%20Sen%20Ph%C3%BA%20M%E1%BB%B9/z7902098272711_5f1a37081b005e4101b8a30338643842.jpg" alt="Hoa Sen Phú Mỹ" loading="lazy"></a>
+  <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Hoa%20Sen%20Ph%C3%BA%20M%E1%BB%B9/z7902098334110_306244e6ca75ed9e244c199b8d240184.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Hoa%20Sen%20Ph%C3%BA%20M%E1%BB%B9/z7902098334110_306244e6ca75ed9e244c199b8d240184.jpg" alt="Hoa Sen Phú Mỹ" loading="lazy"></a>
 </div>
 
 ## Hong Ming
@@ -144,6 +154,18 @@ date: 2026-06-04
 
 <div class="gallery">
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Hyosung%20Vina%20Core%20Materials/20241120_135642.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Hyosung%20Vina%20Core%20Materials/20241120_135642.jpg" alt="Hyosung Vina Core Materials" loading="lazy"></a>
+</div>
+
+## IREX
+
+<div class="gallery">
+  <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/IREX/z7902098260925_777d4778f700b3acf72a1c3678f21a0b.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/IREX/z7902098260925_777d4778f700b3acf72a1c3678f21a0b.jpg" alt="IREX" loading="lazy"></a>
+</div>
+
+## JFE Phú Mỹ 3
+
+<div class="gallery">
+  <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/JFE%20Ph%C3%BA%20M%E1%BB%B9%203/z7902098299237_4ca797d07fde517639f5f2c92d98f67b.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/JFE%20Ph%C3%BA%20M%E1%BB%B9%203/z7902098299237_4ca797d07fde517639f5f2c92d98f67b.jpg" alt="JFE Phú Mỹ 3" loading="lazy"></a>
 </div>
 
 ## Josin Cables
@@ -176,6 +198,7 @@ date: 2026-06-04
 
 <div class="gallery">
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/L%E1%BB%8Dc%20d%E1%BA%A7u%20Long%20S%C6%A1n/IMG_1729746129043_1729746263175.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/L%E1%BB%8Dc%20d%E1%BA%A7u%20Long%20S%C6%A1n/IMG_1729746129043_1729746263175.jpg" alt="Lọc dầu Long Sơn" loading="lazy"></a>
+  <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/L%E1%BB%8Dc%20d%E1%BA%A7u%20Long%20S%C6%A1n/z7902098360786_5bfad6defc8b535c1ca05794f7395956.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/L%E1%BB%8Dc%20d%E1%BA%A7u%20Long%20S%C6%A1n/z7902098360786_5bfad6defc8b535c1ca05794f7395956.jpg" alt="Lọc dầu Long Sơn" loading="lazy"></a>
 </div>
 
 ## Long Phát EC
@@ -213,6 +236,9 @@ date: 2026-06-04
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Powder%20Metallurgy%20Jinding/20250829_114751.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Powder%20Metallurgy%20Jinding/20250829_114751.jpg" alt="Powder Metallurgy Jinding" loading="lazy"></a>
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Powder%20Metallurgy%20Jinding/20250829_114805.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Powder%20Metallurgy%20Jinding/20250829_114805.jpg" alt="Powder Metallurgy Jinding" loading="lazy"></a>
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Powder%20Metallurgy%20Jinding/IMG_1746499073073_1746499944735.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Powder%20Metallurgy%20Jinding/IMG_1746499073073_1746499944735.jpg" alt="Powder Metallurgy Jinding" loading="lazy"></a>
+  <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Powder%20Metallurgy%20Jinding/z7902098284654_74797f7efb461ddf6e447d2f46814db0.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Powder%20Metallurgy%20Jinding/z7902098284654_74797f7efb461ddf6e447d2f46814db0.jpg" alt="Powder Metallurgy Jinding" loading="lazy"></a>
+  <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Powder%20Metallurgy%20Jinding/z7902098369762_102ece5081557f70a5750f23fd78125c.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Powder%20Metallurgy%20Jinding/z7902098369762_102ece5081557f70a5750f23fd78125c.jpg" alt="Powder Metallurgy Jinding" loading="lazy"></a>
+  <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Powder%20Metallurgy%20Jinding/z7902098375779_b5a871385a8aed7814ba25e2808a02aa.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Powder%20Metallurgy%20Jinding/z7902098375779_b5a871385a8aed7814ba25e2808a02aa.jpg" alt="Powder Metallurgy Jinding" loading="lazy"></a>
 </div>
 
 ## PTL
@@ -274,6 +300,9 @@ date: 2026-06-04
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Tripod%20Ch%C3%A2u%20%C4%90%E1%BB%A9c/TimePhoto_20251127_165949.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Tripod%20Ch%C3%A2u%20%C4%90%E1%BB%A9c/TimePhoto_20251127_165949.jpg" alt="Tripod Châu Đức" loading="lazy"></a>
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Tripod%20Ch%C3%A2u%20%C4%90%E1%BB%A9c/TimePhoto_20251128_151432.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Tripod%20Ch%C3%A2u%20%C4%90%E1%BB%A9c/TimePhoto_20251128_151432.jpg" alt="Tripod Châu Đức" loading="lazy"></a>
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Tripod%20Ch%C3%A2u%20%C4%90%E1%BB%A9c/TimePhoto_20251202_153234.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Tripod%20Ch%C3%A2u%20%C4%90%E1%BB%A9c/TimePhoto_20251202_153234.jpg" alt="Tripod Châu Đức" loading="lazy"></a>
+  <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Tripod%20Ch%C3%A2u%20%C4%90%E1%BB%A9c/z7902098475770_d37925809895fb7fc4ca1d036098fa43.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Tripod%20Ch%C3%A2u%20%C4%90%E1%BB%A9c/z7902098475770_d37925809895fb7fc4ca1d036098fa43.jpg" alt="Tripod Châu Đức" loading="lazy"></a>
+  <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Tripod%20Ch%C3%A2u%20%C4%90%E1%BB%A9c/z7902098510393_49e70e477857c438392719c23e5b3606.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Tripod%20Ch%C3%A2u%20%C4%90%E1%BB%A9c/z7902098510393_49e70e477857c438392719c23e5b3606.jpg" alt="Tripod Châu Đức" loading="lazy"></a>
+  <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Tripod%20Ch%C3%A2u%20%C4%90%E1%BB%A9c/z7902098536087_1d3455aa0c0e50ed45abb5f4c8eeda57.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Tripod%20Ch%C3%A2u%20%C4%90%E1%BB%A9c/z7902098536087_1d3455aa0c0e50ed45abb5f4c8eeda57.jpg" alt="Tripod Châu Đức" loading="lazy"></a>
 </div>
 
 ## TVP
@@ -282,6 +311,7 @@ date: 2026-06-04
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/TVP/20231213_144135.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/TVP/20231213_144135.jpg" alt="TVP" loading="lazy"></a>
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/TVP/20231213_160420.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/TVP/20231213_160420.jpg" alt="TVP" loading="lazy"></a>
   <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/TVP/20260221_165727.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/TVP/20260221_165727.jpg" alt="TVP" loading="lazy"></a>
+  <a href="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/TVP/z7902098389482_124928c4c5daaf6b901b44f61297d7e4.jpg" target="_blank"><img src="/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/TVP/z7902098389482_124928c4c5daaf6b901b44f61297d7e4.jpg" alt="TVP" loading="lazy"></a>
 </div>
 
 ## Xe cẩu 81
