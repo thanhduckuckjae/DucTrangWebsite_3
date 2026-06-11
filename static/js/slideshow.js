@@ -92,14 +92,14 @@
   function startSlideshow(img) {
     var idx = Math.floor(Math.random() * companyImages.length);
     img.src = companyImages[idx];
-    img.style.transition = 'opacity 0.5s ease';
+    img.style.transition = 'opacity 1s ease';
     setInterval(function() {
       img.style.opacity = '0';
       setTimeout(function() {
         idx = (idx + 1) % companyImages.length;
         img.src = companyImages[idx];
         img.style.opacity = '1';
-      }, 500);
+      }, 1000);
     }, 5000);
   }
 
