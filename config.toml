@@ -45,7 +45,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   weight = 3
 
 [[menu.main]]
-  name = "Other"
+  name = "Khác"
   identifier = "other-vi"
   parent = "gioi-thieu-cong-ty"
   url = "/company/other/"
