@@ -46,3 +46,9 @@ Công ty trách nhiệm hữu hạn Đức Trang chuyên:
 Điện Thoại: (+84) 973 306 618 / (+84) 862 517 889
 
 Email: thanhdu1964@gmail.com
+
+<div style="margin: 20px 0;">
+<iframe src="https://maps.google.com/maps?q=Tổ+6,+Khu+phố+Song+Vĩnh,+Phường+Tân+Phước,+Thành+phố+Hồ+Chí+Minh,+Việt+Nam&output=embed&hl=vi&z=15" width="100%" height="420" style="border:0; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.2);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<a href="https://www.google.com/maps/dir/?api=1&destination=Tổ+6,+Khu+phố+Song+Vĩnh,+Phường+Tân+Phước,+Thành+phố+Hồ+Chí+Minh,+Việt+Nam" target="_blank" style="display:inline-block; margin-top:8px; padding:10px 20px; background:#e22d30; color:#fff; border-radius:5px; text-decoration:none; font-weight:bold;">📍 Chỉ đường tới Công ty</a>
