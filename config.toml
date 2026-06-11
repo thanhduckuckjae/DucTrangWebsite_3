@@ -79,6 +79,12 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   url = "/company-en/other/"
   weight = 4
 
+[[menu.main]]
+  name = "Quản trị viên"
+  identifier = "admin"
+  url = "/admin/"
+  weight = 10
+
 [Params.sidebar]
   home = "right"   # Configure layout for home page
   list = "right"   # Configure layout for list pages

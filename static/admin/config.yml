@@ -1,0 +1,37 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img/company
+public_folder: /img/company
+
+locale: vi
+
+collections:
+  - name: "post"
+    label: "Bài viết"
+    label_singular: "Bài viết"
+    folder: "content/post"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Tiêu đề", name: "title", widget: "string"}
+      - {label: "Ngày đăng", name: "date", widget: "datetime"}
+      - {label: "Ảnh thumbnail", name: "thumbnail", widget: "image", required: false}
+      - {label: "Nội dung", name: "body", widget: "markdown"}
+
+  - name: "company"
+    label: "Giới thiệu công ty"
+    files:
+      - name: "gioi-thieu"
+        label: "Giới thiệu công ty (VI)"
+        file: "content/post/Giới thiệu công ty.md"
+        fields:
+          - {label: "Tiêu đề", name: "title", widget: "string"}
+          - {label: "Nội dung", name: "body", widget: "markdown"}
+      - name: "about-us"
+        label: "Company Introduction (EN)"
+        file: "content/post/About us.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
