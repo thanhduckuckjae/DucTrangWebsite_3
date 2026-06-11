@@ -79,6 +79,8 @@
   '/img/company/%C4%90%E1%BB%91i%20t%C3%A1c/Xe%20c%E1%BA%A9u%2081/20231122_100026.jpg'
   ];
 
+  var effects = ['zoom', 'wipe', 'morph', 'flip3d'];
+
   function shuffle(arr) {
     for (var i = arr.length - 1; i > 0; i--) {
       var j = Math.floor(Math.random() * (i + 1));
@@ -89,16 +91,89 @@
 
   shuffle(companyImages);
 
+  function applyOut(img, effect) {
+    img.style.transition = 'all 1s ease';
+    switch (effect) {
+      case 'zoom':
+        img.style.transform = 'scale(1.35)';
+        img.style.opacity = '0';
+        break;
+      case 'wipe':
+        img.style.transition = 'clip-path 1s ease';
+        img.style.clipPath = 'inset(0 100% 0 0)';
+        break;
+      case 'morph':
+        img.style.filter = 'blur(14px)';
+        img.style.opacity = '0';
+        break;
+      case 'flip3d':
+        img.style.transition = 'all 1s ease';
+        img.style.transform = 'perspective(600px) rotateY(90deg)';
+        img.style.opacity = '0';
+        break;
+    }
+  }
+
+  function applyIn(img, effect) {
+    img.style.transition = 'none';
+    switch (effect) {
+      case 'zoom':
+        img.style.transform = 'scale(0.75)';
+        img.style.opacity = '0';
+        break;
+      case 'wipe':
+        img.style.clipPath = 'inset(0 0% 0 100%)';
+        break;
+      case 'morph':
+        img.style.filter = 'blur(14px)';
+        img.style.opacity = '0';
+        break;
+      case 'flip3d':
+        img.style.transform = 'perspective(600px) rotateY(-90deg)';
+        img.style.opacity = '0';
+        break;
+    }
+    requestAnimationFrame(function() {
+      requestAnimationFrame(function() {
+        img.style.transition = 'all 1s ease';
+        switch (effect) {
+          case 'zoom':
+            img.style.transform = 'scale(1)';
+            img.style.opacity = '1';
+            break;
+          case 'wipe':
+            img.style.transition = 'clip-path 1s ease';
+            img.style.clipPath = 'inset(0 0% 0 0%)';
+            break;
+          case 'morph':
+            img.style.filter = 'blur(0)';
+            img.style.opacity = '1';
+            break;
+          case 'flip3d':
+            img.style.transform = 'perspective(600px) rotateY(0deg)';
+            img.style.opacity = '1';
+            break;
+        }
+      });
+    });
+  }
+
   function startSlideshow(img) {
+    img.style.transform = 'scale(1)';
+    img.style.opacity = '1';
+    img.style.willChange = 'transform, opacity, filter, clip-path';
     var idx = Math.floor(Math.random() * companyImages.length);
+    var effectIdx = Math.floor(Math.random() * effects.length);
     img.src = companyImages[idx];
-    img.style.transition = 'opacity 1s ease';
+
     setInterval(function() {
-      img.style.opacity = '0';
+      var effect = effects[effectIdx % effects.length];
+      effectIdx++;
+      applyOut(img, effect);
       setTimeout(function() {
         idx = (idx + 1) % companyImages.length;
         img.src = companyImages[idx];
-        img.style.opacity = '1';
+        applyIn(img, effect);
       }, 1000);
     }, 5000);
   }
