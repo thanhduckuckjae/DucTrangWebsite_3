@@ -11,8 +11,8 @@ categories:
   - "Cleaning_service_cate"
 menu:
   main:
-    name: Giới thiệu công ty
-    identifier: gioi-thieu-cong-ty
+    name: Company introduction
+    identifier: company-intro-en
     weight: 5
 ---
 
