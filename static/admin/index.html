@@ -9,25 +9,38 @@
     #back-to-site {
       position: fixed;
       top: 0;
-      left: 240px;
+      left: 370px;
       height: 56px;
       display: flex;
       align-items: center;
+      gap: 8px;
       padding: 0 16px;
       z-index: 99999;
-      color: #fff;
+      color: #666;
       text-decoration: none;
       font-size: 14px;
       font-family: sans-serif;
       white-space: nowrap;
+      font-weight: 500;
     }
     #back-to-site:hover {
-      background: rgba(255,255,255,0.15);
+      color: #333;
+      background: rgba(0,0,0,0.06);
+    }
+    #back-to-site svg {
+      flex-shrink: 0;
     }
   </style>
 </head>
 <body>
-  <a id="back-to-site" href="https://ductrang.net" target="_blank">← ductrang.net</a>
+  <a id="back-to-site" href="https://ductrang.net" target="_blank">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"/>
+      <line x1="2" y1="12" x2="22" y2="12"/>
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+    </svg>
+    ductrang.net
+  </a>
   <script src="https://unpkg.com/decap-cms@3.0.0/dist/decap-cms.js"></script>
 </body>
 </html>
