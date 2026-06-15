@@ -18,7 +18,6 @@
       font-family: sans-serif;
       white-space: nowrap;
       font-weight: 500;
-      vertical-align: middle;
     }
     #back-to-site:hover {
       color: #333;
@@ -33,21 +32,33 @@
 
     function injectButton() {
       if (document.getElementById('back-to-site')) return;
-      var nav = document.querySelector('nav');
-      if (!nav) return;
+
+      // Find the top header nav: the one closest to top of viewport
+      var navs = document.querySelectorAll('nav');
+      var topNav = null;
+      var minTop = Infinity;
+      navs.forEach(function(nav) {
+        var rect = nav.getBoundingClientRect();
+        if (rect.height > 0 && rect.top < minTop) {
+          minTop = rect.top;
+          topNav = nav;
+        }
+      });
+
+      // Only inject if the nav is in the header area (top < 80px)
+      if (!topNav || minTop > 80) return;
+
       var btn = document.createElement('a');
       btn.id = 'back-to-site';
       btn.href = 'https://ductrang.net';
       btn.target = '_blank';
       btn.innerHTML = icon + 'ductrang.net';
-      nav.appendChild(btn);
+      topNav.appendChild(btn);
     }
 
-    var observer = new MutationObserver(function() {
-      injectButton();
-    });
-    observer.observe(document.body, { childList: true, subtree: true });
-    setTimeout(injectButton, 2000);
+    // Try after CMS has fully rendered and positioned elements
+    setTimeout(injectButton, 1500);
+    setTimeout(injectButton, 3000);
   </script>
 </body>
 </html>
