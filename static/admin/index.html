@@ -7,21 +7,34 @@
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <style>
     #back-to-site {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 0 16px;
-      height: 100%;
-      color: #666;
-      text-decoration: none;
-      font-size: 14px;
-      font-family: sans-serif;
-      white-space: nowrap;
-      font-weight: 500;
+      display: inline-flex !important;
+      flex-direction: row !important;
+      align-items: center !important;
+      gap: 8px !important;
+      padding: 0 16px !important;
+      height: 100% !important;
+      color: #666 !important;
+      text-decoration: none !important;
+      font-size: 14px !important;
+      font-family: sans-serif !important;
+      white-space: nowrap !important;
+      font-weight: 500 !important;
+      background: transparent !important;
+      border: none !important;
+      cursor: pointer !important;
     }
     #back-to-site:hover {
-      color: #333;
-      background: rgba(0,0,0,0.06);
+      color: #333 !important;
+      background: rgba(0,0,0,0.06) !important;
+    }
+    #back-to-site svg {
+      display: inline-block !important;
+      vertical-align: middle !important;
+      flex-shrink: 0 !important;
+    }
+    #back-to-site span {
+      display: inline-block !important;
+      vertical-align: middle !important;
     }
   </style>
 </head>
@@ -33,30 +46,49 @@
     function injectButton() {
       if (document.getElementById('back-to-site')) return;
 
-      // Find the top header nav: the one closest to top of viewport
-      var navs = document.querySelectorAll('nav');
-      var topNav = null;
-      var minTop = Infinity;
-      navs.forEach(function(nav) {
-        var rect = nav.getBoundingClientRect();
-        if (rect.height > 0 && rect.top < minTop) {
-          minTop = rect.top;
-          topNav = nav;
+      // Find the "Tập tin" button by looking for the nav link whose href contains "media"
+      var allLinks = document.querySelectorAll('a');
+      var tapTinLink = null;
+      for (var i = 0; i < allLinks.length; i++) {
+        var href = allLinks[i].getAttribute('href') || '';
+        if (href.includes('media')) {
+          tapTinLink = allLinks[i];
+          break;
         }
-      });
+      }
 
-      // Only inject if the nav is in the header area (top < 80px)
-      if (!topNav || minTop > 80) return;
+      // Fallback: use top nav by position
+      if (!tapTinLink) {
+        var navs = document.querySelectorAll('nav');
+        var topNav = null;
+        var minTop = Infinity;
+        navs.forEach(function(nav) {
+          var rect = nav.getBoundingClientRect();
+          if (rect.height > 0 && rect.top < minTop) {
+            minTop = rect.top;
+            topNav = nav;
+          }
+        });
+        if (!topNav || minTop > 80) return;
 
+        var btn = document.createElement('a');
+        btn.id = 'back-to-site';
+        btn.href = 'https://ductrang.net';
+        btn.target = '_blank';
+        btn.innerHTML = icon + '<span>Home</span>';
+        topNav.appendChild(btn);
+        return;
+      }
+
+      // Insert right after "Tập tin" link
       var btn = document.createElement('a');
       btn.id = 'back-to-site';
       btn.href = 'https://ductrang.net';
       btn.target = '_blank';
-      btn.innerHTML = icon + 'ductrang.net';
-      topNav.appendChild(btn);
+      btn.innerHTML = icon + '<span>Home</span>';
+      tapTinLink.parentNode.insertBefore(btn, tapTinLink.nextSibling);
     }
 
-    // Try after CMS has fully rendered and positioned elements
     setTimeout(injectButton, 1500);
     setTimeout(injectButton, 3000);
   </script>
