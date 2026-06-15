@@ -15,6 +15,8 @@
 			{{ range .Params.gallery }}
 			<img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
 			{{ end }}
+			<button class="gallery-arrow gallery-arrow--left" aria-label="Ảnh trước">&#8592;</button>
+			<button class="gallery-arrow gallery-arrow--right" aria-label="Ảnh sau">&#8594;</button>
 		</figure>
 		{{- else if .Params.thumbnail }}
 		<figure class="post__thumbnail">

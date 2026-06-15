@@ -194,16 +194,20 @@
 
     var current = 0;
     var effectIdx = Math.floor(Math.random() * effects.length);
+    var transitioning = false;
+    var timer = null;
 
     imgs.forEach(function(img, i) {
       img.style.opacity = i === 0 ? '1' : '0';
       img.style.zIndex = i === 0 ? '2' : '1';
     });
 
-    setInterval(function() {
+    function goTo(next) {
+      if (transitioning || next === current) return;
+      transitioning = true;
+
       var effect = effects[effectIdx % effects.length];
       effectIdx++;
-      var next = (current + 1) % imgs.length;
 
       imgs[next].style.zIndex = '3';
       imgs[next].style.transition = 'none';
@@ -220,11 +224,26 @@
         imgs[current].style.filter = '';
         imgs[current].style.clipPath = '';
         imgs[current].style.zIndex = '1';
-
         current = next;
         applyIn(imgs[current], effect);
+        setTimeout(function() { transitioning = false; }, 1000);
       }, 1000);
-    }, 5000);
+
+      // Restart auto timer on manual navigation
+      clearInterval(timer);
+      timer = setInterval(function() { goTo((current + 1) % imgs.length); }, 5000);
+    }
+
+    timer = setInterval(function() { goTo((current + 1) % imgs.length); }, 5000);
+
+    var leftBtn = wrap.querySelector('.gallery-arrow--left');
+    var rightBtn = wrap.querySelector('.gallery-arrow--right');
+    if (leftBtn) leftBtn.addEventListener('click', function() {
+      goTo((current - 1 + imgs.length) % imgs.length);
+    });
+    if (rightBtn) rightBtn.addEventListener('click', function() {
+      goTo((current + 1) % imgs.length);
+    });
   }
 
   document.addEventListener('DOMContentLoaded', function() {
