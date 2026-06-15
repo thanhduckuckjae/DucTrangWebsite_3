@@ -174,18 +174,48 @@
     img.style.willChange = 'transform, opacity, filter, clip-path';
     var idx = Math.floor(Math.random() * companyImages.length);
     var effectIdx = Math.floor(Math.random() * effects.length);
+    var transitioning = false;
+    var timer = null;
     img.src = companyImages[idx];
 
-    setInterval(function() {
+    function goTo(nextIdx) {
+      if (transitioning) return;
+      transitioning = true;
       var effect = effects[effectIdx % effects.length];
       effectIdx++;
       applyOut(img, effect);
       setTimeout(function() {
-        idx = (idx + 1) % companyImages.length;
+        idx = nextIdx;
         img.src = companyImages[idx];
         applyIn(img, effect);
+        setTimeout(function() { transitioning = false; }, 1000);
       }, 1000);
-    }, 5000);
+      clearInterval(timer);
+      timer = setInterval(function() { goTo((idx + 1) % companyImages.length); }, 5000);
+    }
+
+    timer = setInterval(function() { goTo((idx + 1) % companyImages.length); }, 5000);
+
+    var container = img.parentElement;
+    if (container && !container.querySelector('.gallery-arrow')) {
+      container.style.position = 'relative';
+      var leftBtn = document.createElement('button');
+      leftBtn.className = 'gallery-arrow gallery-arrow--left';
+      leftBtn.setAttribute('aria-label', 'Ảnh trước');
+      leftBtn.innerHTML = '&#8592;';
+      leftBtn.addEventListener('click', function() {
+        goTo((idx - 1 + companyImages.length) % companyImages.length);
+      });
+      var rightBtn = document.createElement('button');
+      rightBtn.className = 'gallery-arrow gallery-arrow--right';
+      rightBtn.setAttribute('aria-label', 'Ảnh sau');
+      rightBtn.innerHTML = '&#8594;';
+      rightBtn.addEventListener('click', function() {
+        goTo((idx + 1) % companyImages.length);
+      });
+      container.appendChild(leftBtn);
+      container.appendChild(rightBtn);
+    }
   }
 
   function startGallerySlideshow(wrap) {

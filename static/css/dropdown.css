@@ -176,6 +176,17 @@
     opacity: 1;
     z-index: 2;
 }
+.list__thumbnail, .post__thumbnail {
+    position: relative;
+    overflow: hidden;
+}
+.list__thumbnail .gallery-arrow {
+    width: 28px;
+    height: 28px;
+    font-size: 15px;
+}
+.list__thumbnail .gallery-arrow--left  { left: 6px; }
+.list__thumbnail .gallery-arrow--right { right: 6px; }
 .gallery-arrow {
     position: absolute;
     top: 50%;
