@@ -165,7 +165,6 @@ date: 2026-06-04
   <a href="/img/company/Xe%20N%C3%A2ng/24%20Others/20230816_074440.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/24%20Others/20230816_074440.jpg" alt="24 Others" loading="lazy"></a>
   <a href="/img/company/Xe%20N%C3%A2ng/24%20Others/20241205_145633.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/24%20Others/20241205_145633.jpg" alt="24 Others" loading="lazy"></a>
   <a href="/img/company/Xe%20N%C3%A2ng/24%20Others/20241220_170013.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/24%20Others/20241220_170013.jpg" alt="24 Others" loading="lazy"></a>
-  <a href="/img/company/Xe%20N%C3%A2ng/24%20Others/20250406_104803.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/24%20Others/20250406_104803.jpg" alt="24 Others" loading="lazy"></a>
   <a href="/img/company/Xe%20N%C3%A2ng/24%20Others/IMG_1758683248126_1758683276164.jpg" target="_blank"><img src="/img/company/Xe%20N%C3%A2ng/24%20Others/IMG_1758683248126_1758683276164.jpg" alt="24 Others" loading="lazy"></a>
 </div>
 
