@@ -7,40 +7,47 @@
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <style>
     #back-to-site {
-      position: fixed;
-      top: 0;
-      left: 370px;
-      height: 56px;
-      display: flex;
+      display: inline-flex;
       align-items: center;
       gap: 8px;
       padding: 0 16px;
-      z-index: 99999;
+      height: 100%;
       color: #666;
       text-decoration: none;
       font-size: 14px;
       font-family: sans-serif;
       white-space: nowrap;
       font-weight: 500;
+      vertical-align: middle;
     }
     #back-to-site:hover {
       color: #333;
       background: rgba(0,0,0,0.06);
     }
-    #back-to-site svg {
-      flex-shrink: 0;
-    }
   </style>
 </head>
 <body>
-  <a id="back-to-site" href="https://ductrang.net" target="_blank">
-    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="12" cy="12" r="10"/>
-      <line x1="2" y1="12" x2="22" y2="12"/>
-      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-    </svg>
-    ductrang.net
-  </a>
   <script src="https://unpkg.com/decap-cms@3.0.0/dist/decap-cms.js"></script>
+  <script>
+    var icon = '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>';
+
+    function injectButton() {
+      if (document.getElementById('back-to-site')) return;
+      var nav = document.querySelector('nav');
+      if (!nav) return;
+      var btn = document.createElement('a');
+      btn.id = 'back-to-site';
+      btn.href = 'https://ductrang.net';
+      btn.target = '_blank';
+      btn.innerHTML = icon + 'ductrang.net';
+      nav.appendChild(btn);
+    }
+
+    var observer = new MutationObserver(function() {
+      injectButton();
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+    setTimeout(injectButton, 2000);
+  </script>
 </body>
 </html>
