@@ -151,3 +151,28 @@
         align-items: center;
     }
 }
+
+/* Post gallery slideshow */
+.post-gallery-wrap {
+    position: relative;
+    overflow: hidden;
+    height: 420px;
+}
+@media screen and (max-width: 620px) {
+    .post-gallery-wrap { height: 220px; }
+}
+.post-gallery-wrap img {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    opacity: 0;
+    z-index: 1;
+    will-change: transform, opacity, filter, clip-path;
+}
+.post-gallery-wrap img:first-child {
+    opacity: 1;
+    z-index: 2;
+}

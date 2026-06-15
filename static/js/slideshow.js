@@ -188,10 +188,55 @@
     }, 5000);
   }
 
+  function startGallerySlideshow(wrap) {
+    var imgs = Array.from(wrap.querySelectorAll('img'));
+    if (imgs.length < 2) return;
+
+    var current = 0;
+    var effectIdx = Math.floor(Math.random() * effects.length);
+
+    imgs.forEach(function(img, i) {
+      img.style.opacity = i === 0 ? '1' : '0';
+      img.style.zIndex = i === 0 ? '2' : '1';
+    });
+
+    setInterval(function() {
+      var effect = effects[effectIdx % effects.length];
+      effectIdx++;
+      var next = (current + 1) % imgs.length;
+
+      imgs[next].style.zIndex = '3';
+      imgs[next].style.transition = 'none';
+      imgs[next].style.transform = 'scale(1)';
+      imgs[next].style.filter = '';
+      imgs[next].style.clipPath = '';
+
+      applyOut(imgs[current], effect);
+
+      setTimeout(function() {
+        imgs[current].style.transition = 'none';
+        imgs[current].style.transform = 'scale(1)';
+        imgs[current].style.opacity = '0';
+        imgs[current].style.filter = '';
+        imgs[current].style.clipPath = '';
+        imgs[current].style.zIndex = '1';
+
+        current = next;
+        applyIn(imgs[current], effect);
+      }, 1000);
+    }, 5000);
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
+    // Gallery slideshow for posts with multiple images
+    document.querySelectorAll('.post-gallery-wrap').forEach(startGallerySlideshow);
+
+    // Company image slideshow for single thumbnails (skip gallery posts)
     var thumbs = document.querySelectorAll('.list__thumbnail img, .post__thumbnail img');
     thumbs.forEach(function(img) {
-      startSlideshow(img);
+      if (!img.closest('.post-gallery-wrap')) {
+        startSlideshow(img);
+      }
     });
   });
 }());
