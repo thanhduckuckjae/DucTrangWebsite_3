@@ -12,9 +12,11 @@
 			<a class="menu__link menu__link--parent" href="{{ .URL }}">
 				{{ .Pre }}
 				<span class="menu__text">{{ .Name }}</span>
-				<span class="menu__arrow">▾</span>
 				{{ .Post }}
 			</a>
+			<button class="menu__arrow-btn" aria-label="Mở rộng">
+				<span class="menu__arrow">▾</span>
+			</button>
 			<ul class="menu__dropdown">
 				{{- range .Children }}
 				<li class="menu__dropdown-item">
