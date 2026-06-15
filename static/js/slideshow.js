@@ -5,7 +5,6 @@
   '/img/company/Xe%20N%C3%A2ng/20230816_074440.jpg',
   '/img/company/Xe%20N%C3%A2ng/20241205_145633.jpg',
   '/img/company/Xe%20N%C3%A2ng/20241220_170013.jpg',
-  '/img/company/Xe%20N%C3%A2ng/20250406_104803.jpg',
   '/img/company/Xe%20N%C3%A2ng/IMG_1758683248126_1758683276164.jpg',
   '/img/company/Xe%20N%C3%A2ng/01%20Mitsubishi%2025%20t%E1%BA%A5n%20v%C3%A0ng/20250521_132504.jpg',
   '/img/company/Xe%20N%C3%A2ng/02%20Toyota%2013.5%20t%E1%BA%A5n%20cam/20260117_132819.jpg',
