@@ -5,8 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Quản trị viên - Đức Trang</title>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <style>
+    #back-to-site {
+      position: fixed;
+      top: 0;
+      left: 240px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      z-index: 99999;
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      font-family: sans-serif;
+      white-space: nowrap;
+    }
+    #back-to-site:hover {
+      background: rgba(255,255,255,0.15);
+    }
+  </style>
 </head>
 <body>
+  <a id="back-to-site" href="https://ductrang.net" target="_blank">← ductrang.net</a>
   <script src="https://unpkg.com/decap-cms@3.0.0/dist/decap-cms.js"></script>
 </body>
 </html>
