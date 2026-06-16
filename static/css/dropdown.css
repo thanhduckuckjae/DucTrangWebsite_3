@@ -224,3 +224,69 @@
 .gallery-arrow:hover { background: rgba(0,0,0,0.75); }
 .gallery-arrow--left  { left: 12px; }
 .gallery-arrow--right { right: 12px; }
+
+/* Author box: quote button + visit counter */
+.authorbox {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.authorbox__avatar {
+    float: none !important;
+    margin: 0 !important;
+}
+.authorbox__body {
+    flex: 1 1 200px;
+}
+.authorbox__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    margin-left: auto;
+}
+.authorbox__quote-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #e22d30;
+    color: #fff !important;
+    padding: 10px 18px;
+    border-radius: 4px;
+    text-decoration: none !important;
+    font-weight: 600;
+    font-size: 14px;
+    white-space: nowrap;
+    transition: background .2s ease;
+}
+.authorbox__quote-btn:hover {
+    background: #c4231f;
+}
+.authorbox__quote-btn svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    flex-shrink: 0;
+}
+.authorbox__visits {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #666;
+}
+.authorbox__visits img {
+    display: block;
+}
+@media screen and (max-width: 600px) {
+    .authorbox {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .authorbox__actions {
+        margin-left: 0;
+        align-items: flex-start;
+        width: 100%;
+    }
+}

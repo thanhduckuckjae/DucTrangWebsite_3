@@ -1,0 +1,36 @@
+{{- if .Param "authorbox" }}
+<div class="authorbox clearfix">
+	{{- if and (not .Site.Author.avatar) (not .Site.Author.name) (not .Site.Author.bio) }}
+	<p class="authorbox__warning">
+		<strong>WARNING:</strong> Authorbox is activated, but [Author] parameters are not specified.
+	</p>
+	{{- end }}
+	{{- with .Site.Author.avatar }}
+	<figure class="authorbox__avatar">
+		<img alt="{{ $.Site.Author.name }} avatar" src="{{ . | relURL }}" class="avatar" height="90" width="90">
+	</figure>
+	{{- end }}
+	<div class="authorbox__body">
+		{{- with .Site.Author.name }}
+		<div class="authorbox__header">
+			<span class="authorbox__name">{{ T "authorbox_name" . }}</span>
+		</div>
+		{{- end }}
+		{{- with .Site.Author.bio }}
+		<div class="authorbox__description">
+			{{ . }}
+		</div>
+		{{- end }}
+	</div>
+	<div class="authorbox__actions">
+		<a class="authorbox__quote-btn" href="tel:+84973306618">
+			<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+			<span>Yêu cầu báo giá</span>
+		</a>
+		<div class="authorbox__visits">
+			<span class="authorbox__visits-label">Lượt xem trang</span>
+			<img src="https://hits.sh/ductrang.net.svg?style=flat-square&label=Views&color=e22d30" alt="Số lượt xem trang ductrang.net" loading="lazy">
+		</div>
+	</div>
+</div>
+{{- end }}
