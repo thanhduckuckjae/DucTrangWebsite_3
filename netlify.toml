@@ -5,6 +5,12 @@
 [build.environment]
   HUGO_VERSION = "0.121.0"
 
+[[redirects]]
+  from = "/"
+  to = "/post/gi%E1%BB%9Bi-thi%E1%BB%87u-c%C3%B4ng-ty/"
+  status = 302
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
