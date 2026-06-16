@@ -1,5 +1,6 @@
 ﻿---
 title: Logo
+lang: en
 date: 2026-06-04
 ---
 

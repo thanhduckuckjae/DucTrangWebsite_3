@@ -1,5 +1,6 @@
 ---
 title: "COMPANY INTRODUCTION"
+lang: en
 date: 2026-06-02
 thumbnail: "img/Xenang_thungda.png"
 tags:

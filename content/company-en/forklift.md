@@ -1,5 +1,6 @@
 ﻿---
 title: Forklift
+lang: en
 date: 2026-06-04
 ---
 
