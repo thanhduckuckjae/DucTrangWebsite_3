@@ -290,3 +290,27 @@
         width: 100%;
     }
 }
+
+/* Contact toast */
+.contact-toast {
+    position: fixed;
+    left: 50%;
+    bottom: 30px;
+    transform: translate(-50%, 20px);
+    background: #2a2a2a;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-size: 14px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .25s ease, transform .25s ease;
+    max-width: 90vw;
+    text-align: center;
+}
+.contact-toast--visible {
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
