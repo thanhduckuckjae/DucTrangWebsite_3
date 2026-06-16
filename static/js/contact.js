@@ -20,16 +20,29 @@
 
     btns.forEach(function (btn) {
         btn.addEventListener('click', function () {
-            var email = btn.getAttribute('href').replace(/^mailto:/, '').split('?')[0];
+            var href = btn.getAttribute('href') || '';
             var isEn = btn.dataset.lang === 'en';
-            var message = isEn
-                ? 'Email copied: ' + email + '. Opening your mail app…'
-                : 'Đã sao chép email: ' + email + '. Đang mở ứng dụng email…';
 
-            if (navigator.clipboard && navigator.clipboard.writeText) {
-                navigator.clipboard.writeText(email).catch(function () {});
+            if (href.indexOf('tel:') === 0) {
+                var phone = href.replace(/^tel:/, '');
+                var message = isEn
+                    ? 'Calling ' + phone + '…'
+                    : 'Đang gọi ' + phone + '…';
+                showToast(message);
+                return;
             }
-            showToast(message);
+
+            if (href.indexOf('mailto:') === 0) {
+                var email = href.replace(/^mailto:/, '').split('?')[0];
+                var msg = isEn
+                    ? 'Email copied: ' + email + '. Opening your mail app…'
+                    : 'Đã sao chép email: ' + email + '. Đang mở ứng dụng email…';
+
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(email).catch(function () {});
+                }
+                showToast(msg);
+            }
         });
     });
 }());
