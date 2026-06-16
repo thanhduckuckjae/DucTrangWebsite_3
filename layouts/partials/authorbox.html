@@ -5,6 +5,7 @@
 		<strong>WARNING:</strong> Authorbox is activated, but [Author] parameters are not specified.
 	</p>
 	{{- end }}
+	{{- $isEn := eq (.Param "lang") "en" }}
 	{{- with .Site.Author.avatar }}
 	<figure class="authorbox__avatar">
 		<img alt="{{ $.Site.Author.name }} avatar" src="{{ . | relURL }}" class="avatar" height="90" width="90">
@@ -16,13 +17,14 @@
 			<span class="authorbox__name">{{ T "authorbox_name" . }}</span>
 		</div>
 		{{- end }}
-		{{- with .Site.Author.bio }}
 		<div class="authorbox__description">
-			{{ . }}
+			{{- if $isEn }}
+			{{ .Site.Author.bio }}
+			{{- else }}
+			Quản lý kỹ thuật Đào Thành Đức
+			{{- end }}
 		</div>
-		{{- end }}
 	</div>
-	{{- $isEn := eq (.Param "lang") "en" }}
 	<div class="authorbox__actions">
 		{{- if $isEn }}
 		<a class="authorbox__quote-btn" href="mailto:thanhdu1964@gmail.com?subject=Request%20a%20quote">
