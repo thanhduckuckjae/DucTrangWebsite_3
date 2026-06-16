@@ -4,6 +4,22 @@
     var btns = document.querySelectorAll('.authorbox__quote-btn');
     if (!btns.length) return;
 
+    var COUNTER_KEY = 'ductrang-net-button-interactions';
+    var counterEls = document.querySelectorAll('[data-interaction-count]');
+
+    function setCounterText(value) {
+        counterEls.forEach(function (el) {
+            el.textContent = value;
+        });
+    }
+
+    if (counterEls.length && window.fetch) {
+        fetch('https://abacus.jasoncameron.dev/get/' + COUNTER_KEY)
+            .then(function (res) { return res.json(); })
+            .then(function (data) { setCounterText(data.value); })
+            .catch(function () { setCounterText('—'); });
+    }
+
     var toast = document.createElement('div');
     toast.className = 'contact-toast';
     document.body.appendChild(toast);
@@ -20,6 +36,13 @@
 
     btns.forEach(function (btn) {
         btn.addEventListener('click', function () {
+            if (window.fetch) {
+                fetch('https://abacus.jasoncameron.dev/hit/' + COUNTER_KEY)
+                    .then(function (res) { return res.json(); })
+                    .then(function (data) { setCounterText(data.value); })
+                    .catch(function () {});
+            }
+
             var href = btn.getAttribute('href') || '';
             var isEn = btn.dataset.lang === 'en';
 

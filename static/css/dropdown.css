@@ -314,3 +314,20 @@
     opacity: 1;
     transform: translate(-50%, 0);
 }
+
+/* Interaction counter badge: matches hits.sh "Views" badge size/font */
+.authorbox__visits-label--gap {
+    margin-left: 10px;
+}
+.authorbox__counter-badge {
+    display: inline-flex;
+    align-items: center;
+    height: 20px;
+    padding: 0 6px;
+    background: #e22d30;
+    color: #fff;
+    font-family: Verdana, Geneva, DejaVu Sans, sans-serif;
+    font-size: 11px;
+    line-height: 1;
+    vertical-align: middle;
+}
