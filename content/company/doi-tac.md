@@ -1,6 +1,7 @@
 ﻿---
 title: Đối tác
 date: 2026-06-04
+directions: true
 ---
 
 <div class="gallery-page">

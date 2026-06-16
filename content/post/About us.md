@@ -15,6 +15,7 @@ menu:
     name: Company introduction
     identifier: company-intro-en
     weight: 5
+directions: true
 ---
 
 
@@ -49,8 +50,6 @@ Email: thanhdu1964@gmail.com
 <div style="margin: 20px 0;">
 <iframe src="https://maps.google.com/maps?q=10.5755206,107.0656997&output=embed&hl=en&z=18" width="100%" height="420" style="border:0; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.2);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
-
-<a href="https://www.google.com/maps/dir/?api=1&destination=10.5755206,107.0656997" target="_blank" style="display:inline-block; margin-top:8px; padding:10px 20px; background:#e22d30; color:#fff; border-radius:5px; text-decoration:none; font-weight:bold;">📍 Directions to the company</a>
 
 
 
