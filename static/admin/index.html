@@ -92,13 +92,40 @@
     setTimeout(injectButton, 1500);
     setTimeout(injectButton, 3000);
 
-    // Patch file inputs to allow multi-select
+    // Multi-file upload patch for Decap CMS
     (function () {
+      var queue = [];
+      var busy = false;
+
+      function flush() {
+        if (busy || queue.length === 0) return;
+        busy = true;
+        var item = queue.shift();
+        var dt = new DataTransfer();
+        dt.items.add(item.file);
+        try {
+          Object.defineProperty(item.input, 'files', {
+            get: function () { return dt.files; },
+            configurable: true
+          });
+        } catch (e) {}
+        item.input.dispatchEvent(new Event('change', { bubbles: true }));
+        setTimeout(function () { busy = false; flush(); }, 1500);
+      }
+
+      document.addEventListener('change', function (e) {
+        var input = e.target;
+        if (input.type !== 'file' || input.files.length <= 1) return;
+        var files = Array.from(input.files);
+        for (var i = 1; i < files.length; i++) {
+          queue.push({ input: input, file: files[i] });
+        }
+        setTimeout(flush, 1000);
+      }, true);
+
       function patchInputs() {
         document.querySelectorAll('input[type="file"]').forEach(function (el) {
-          if (!el.hasAttribute('multiple')) {
-            el.setAttribute('multiple', '');
-          }
+          if (!el.hasAttribute('multiple')) el.setAttribute('multiple', '');
         });
       }
       var mo = new MutationObserver(patchInputs);
