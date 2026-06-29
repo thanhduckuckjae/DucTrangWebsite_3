@@ -170,25 +170,21 @@
 .post-gallery-wrap {
     position: relative;
     overflow: hidden;
-    height: 420px;
-}
-@media screen and (max-width: 620px) {
-    .post-gallery-wrap { height: 220px; }
+    background: #f0f0f0;
 }
 .post-gallery-wrap img {
-    position: absolute !important;
-    top: 0;
-    left: 0;
+    display: block;
     width: 100% !important;
-    height: 100% !important;
-    object-fit: cover;
+    height: auto !important;
+    object-fit: unset;
     opacity: 0;
-    z-index: 1;
     will-change: transform, opacity, filter, clip-path;
 }
 .post-gallery-wrap img:first-child {
     opacity: 1;
-    z-index: 2;
+}
+.post-gallery-wrap img ~ img {
+    display: none;
 }
 .list__thumbnail, .post__thumbnail {
     position: relative;

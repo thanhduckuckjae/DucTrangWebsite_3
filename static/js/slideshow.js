@@ -221,15 +221,21 @@
     var imgs = Array.from(wrap.querySelectorAll('img'));
     if (imgs.length < 2) return;
 
+    // Collect sources then keep only the first img visible
+    var sources = imgs.map(function(img) { return img.src; });
+    var alts    = imgs.map(function(img) { return img.alt; });
+    imgs.slice(1).forEach(function(img) { img.style.display = 'none'; });
+
+    // Preload all images so src-swap is instant
+    sources.forEach(function(src) { var p = new Image(); p.src = src; });
+
+    var main = imgs[0];
+    main.style.opacity = '1';
+
     var current = 0;
     var effectIdx = Math.floor(Math.random() * effects.length);
     var transitioning = false;
     var timer = null;
-
-    imgs.forEach(function(img, i) {
-      img.style.opacity = i === 0 ? '1' : '0';
-      img.style.zIndex = i === 0 ? '2' : '1';
-    });
 
     function goTo(next) {
       if (transitioning || next === current) return;
@@ -238,41 +244,31 @@
       var effect = effects[effectIdx % effects.length];
       effectIdx++;
 
-      imgs[next].style.zIndex = '3';
-      imgs[next].style.transition = 'none';
-      imgs[next].style.transform = 'scale(1)';
-      imgs[next].style.filter = '';
-      imgs[next].style.clipPath = '';
-
-      applyOut(imgs[current], effect);
+      applyOut(main, effect);
 
       setTimeout(function() {
-        imgs[current].style.transition = 'none';
-        imgs[current].style.transform = 'scale(1)';
-        imgs[current].style.opacity = '0';
-        imgs[current].style.filter = '';
-        imgs[current].style.clipPath = '';
-        imgs[current].style.zIndex = '1';
-        current = next;
-        applyIn(imgs[current], effect);
+        main.style.transition = 'none';
+        main.style.transform  = 'scale(1)';
+        main.style.opacity    = '0';
+        main.style.filter     = '';
+        main.style.clipPath   = '';
+        main.src = sources[next];
+        main.alt = alts[next];
+        current  = next;
+        applyIn(main, effect);
         setTimeout(function() { transitioning = false; }, 1000);
       }, 1000);
 
-      // Restart auto timer on manual navigation
       clearInterval(timer);
-      timer = setInterval(function() { goTo((current + 1) % imgs.length); }, 5000);
+      timer = setInterval(function() { goTo((current + 1) % sources.length); }, 5000);
     }
 
-    timer = setInterval(function() { goTo((current + 1) % imgs.length); }, 5000);
+    timer = setInterval(function() { goTo((current + 1) % sources.length); }, 5000);
 
-    var leftBtn = wrap.querySelector('.gallery-arrow--left');
+    var leftBtn  = wrap.querySelector('.gallery-arrow--left');
     var rightBtn = wrap.querySelector('.gallery-arrow--right');
-    if (leftBtn) leftBtn.addEventListener('click', function() {
-      goTo((current - 1 + imgs.length) % imgs.length);
-    });
-    if (rightBtn) rightBtn.addEventListener('click', function() {
-      goTo((current + 1) % imgs.length);
-    });
+    if (leftBtn)  leftBtn.addEventListener('click',  function() { goTo((current - 1 + sources.length) % sources.length); });
+    if (rightBtn) rightBtn.addEventListener('click', function() { goTo((current + 1) % sources.length); });
   }
 
   document.addEventListener('DOMContentLoaded', function() {
