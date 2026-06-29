@@ -91,6 +91,19 @@
 
     setTimeout(injectButton, 1500);
     setTimeout(injectButton, 3000);
+
+    // Patch file inputs to allow multi-select
+    (function () {
+      function patchInputs() {
+        document.querySelectorAll('input[type="file"]').forEach(function (el) {
+          if (!el.hasAttribute('multiple')) {
+            el.setAttribute('multiple', '');
+          }
+        });
+      }
+      var mo = new MutationObserver(patchInputs);
+      mo.observe(document.documentElement, { childList: true, subtree: true });
+    }());
   </script>
 </body>
 </html>
