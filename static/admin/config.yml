@@ -22,13 +22,7 @@ collections:
         name: "gallery"
         widget: "list"
         required: false
-        field:
-          label: "Ảnh"
-          name: "image"
-          widget: "image"
-          media_library:
-            config:
-              multiple: true
+        field: {label: "Ảnh", name: "image", widget: "image"}
       - {label: "Nội dung", name: "body", widget: "markdown"}
 
   - name: "company"
